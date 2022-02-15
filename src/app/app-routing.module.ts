@@ -1,7 +1,14 @@
+import { UsersComponent } from './users/users.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { useAnimation } from '@angular/animations';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: 'users',
+    component: UsersComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
