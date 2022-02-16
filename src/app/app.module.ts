@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { CreateUserComponent } from './users/create-user/create-user.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,5 +21,6 @@ import { CreateUserComponent } from './users/create-user/create-user.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }
